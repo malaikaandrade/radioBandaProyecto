@@ -1,0 +1,9 @@
+.contenedor-programas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.programa{
+    margin: 20px;
+
+}

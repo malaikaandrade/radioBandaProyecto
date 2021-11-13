@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h4{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.info-danza{
+    padding: 40px;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 27px;
+}

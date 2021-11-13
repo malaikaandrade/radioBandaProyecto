@@ -1,0 +1,273 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+.header-box{
+    width:100%;
+}
+.header-box{
+    background: linear-gradient(#b4164e,black);
+}
+
+/* FOOTER */
+.footer-box{
+    background: linear-gradient(#b4164e,black);
+    width: 100%;
+}
+
+
+.footer-box h4{
+    color: white;
+    padding: 7px;
+    font-size: 17px;
+}
+
+.footer-box a {
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    text-decoration: none;
+    line-height: 14px;
+
+}
+#cajita-redes{
+    /* border: 1px solid thistle; */
+    border-radius: 5px;
+    background-color: rgba(216, 191, 216, 0.384);
+    text-align: center;
+    margin: 7px;
+    padding: 10px;
+
+}
+#logo-footer{
+    display: none;
+}
+
+/* movil */
+  @media(min-width: 200px){
+/* HEADER */
+    .mobile-container{
+        max-width: 100%;
+        margin: auto;
+        background-color: linear-gradient(#b4164e,black);
+        color: white;
+
+    }   
+
+    .logo-movil{
+        width: 230px;
+    
+    }
+    .topnav-links{
+        overflow: hidden;
+        position: relative;
+    }
+    .topnav-links #my-links{
+        display: none;
+    }
+    .topnav-links a{
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        display: block;
+    }
+    .topnav-links a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    /* para el tamaño del icono de hamburguesa */
+    .fa, .fas {
+        font-size: 32px;
+    }
+    
+    .topnav-links a:hover {
+        color: white;
+    }
+    .desktop-container{
+        display: none;
+    }
+    #banner-768{
+        width: 100%;
+    }
+
+    /* FOOTER */
+
+    /* .footer-box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #cajita-redes{
+        width: 100%;
+    } */
+
+  }
+
+  /*Tableta*/
+@media (min-width: 700px){  
+    /* HEADER */
+    .header-box{
+        width:100%;
+    }
+    .mobile-container{
+        display: none;
+    }
+    .desktop-container{
+        /* display: block; */
+        display: flex;
+
+        justify-content: flex-start;
+        align-items: center;
+    }
+    /* en caso de que quisiera utilizar los links de movil para no volver a escribirlos */
+    /* .div-logo-movil{
+        display: none;
+    }
+    #my-links{
+        display: block !important;
+    }
+    .fa, .fas {
+        display: none;
+    } */
+    .div-logo-desktop{
+        width: 30%;
+        
+    }
+    #logo-desktop{
+        width: 100%;
+        padding: 20px;
+    }
+    .my-links-desktop a{
+        color: white;
+        padding: 5px;
+        font-size: 20px;
+        text-decoration: none;
+        font-weight: bold;
+        
+    }
+    .my-links-desktop{
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        margin-right: 10px;
+    }
+
+
+    /* FOOTER */
+    #logo-footer{
+        display: block;
+        width: 100%;
+    }
+    .div-logo-footer{
+        width: 10%;
+    }
+    .footer-box{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        justify-content: space-around;
+
+    }
+
+    .footer-box h4{
+        font-size: 20px;
+    }
+
+    .footer-box a {
+        font-size: 17px;
+        padding: 7px;
+        line-height: 14px;
+
+    }
+    #cajita-redes{
+        text-align: left;
+        width: 100%;
+        background-color: transparent;
+
+    }
+}
+
+/*PC*/
+@media (min-width: 860px){
+    /* HEADER */
+    .div-logo-desktop{
+        width: 25%;
+
+    }
+    .my-links-desktop{
+        margin-right: 7px;
+    }
+    .my-links-desktop a{
+        padding: 5px;
+        font-size: 25px;
+        font-weight: bolder;
+    }
+
+    /* FOOTER */
+
+    .footer-box h4{
+        font-size: 25px;
+    }
+
+    .footer-box a {
+        font-size: 20px;
+    }
+    #banner-768{
+        height: 400px;
+    }
+        /* .footer-box h4{
+        color: white;
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    .footer-box a {
+        color: rgb(255, 255, 255);
+        font-size: 11px;
+        padding: 7px;
+        text-decoration: none;
+        line-height: 14px;
+
+    }
+    #cajita-redes{
+        border: 1px solid thistle;
+        border-radius: 5px;
+        background-color: rgba(216, 191, 216, 0.384);
+        text-align: center;
+        margin: 7px;
+    } */
+}
+
+@media (min-width: 1200px){
+
+    .div-logo-desktop{
+        width: 20%;
+
+    }
+    .footer-box h4{
+        font-size: 25px;
+    }
+
+    .footer-box a {
+        font-size: 20px;
+    }
+    #cajita-redes{
+ 
+        text-align: center;
+        margin: 9px;
+        padding: 10px;
+    
+    }
+    
+}

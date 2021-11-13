@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/index-styles.css">
+    <link rel="stylesheet" href="/css/talleresIndex-styles.css">
+    <script src="https://kit.fontawesome.com/f8b57e23e1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <title>Radio Banda</title>
+</head>
+<body>
+
+    <!-- header -->
+    <%- include('partials/header') %>
+
+
+    <main>
+        <h2>Talleres</h2>
+        <div>
+            <div class="contenedor-taller">
+                <div>
+                    <a href="/tallerDanza"><p>Taller de Danza Afrobrasileña</p></a> 
+                    <a href="/tallerDanza"><img src="/images/fotosTalleres/tallerDanzaIndex.jpg" alt="" class="foto-taller"></a>
+                </div>
+                <div class="horarios">
+                    <p>Horario</p>
+                    <p>Domingos de 8:00 a 11:00 hrs</p>
+                    <p>Casa de Cultura las Jarillas</p>
+                </div>
+            </div>
+            <div class="contenedor-taller">
+                <div>
+                    <a href="/tallerCapoeira"><p>Taller de Capoeira Angola</p></a>
+                    <a href="/tallerCapoeira"><img src="/images/fotosTalleres/tallerAngolaIndex.jpg" alt="" class="foto-taller"></a>
+                </div>
+                <div class="horarios">
+                    <p>Horario</p>
+                    <p>Martes y jueves de 19:00 a 21:00 hrs</p>
+                    <p>Casa de Cultura las Jarillas</p>
+                    <br>
+                <div>
+            </div>
+            <div class="contenedor-taller">
+                    <a href="/tallerPercusiones"><p>Taller de Percusiones</p></a>
+                    <a href="/tallerPercusiones"><img src="/images/fotosTalleres/tallerPercusionIndex.jpeg" alt="" class="foto-taller"></a>
+                </div>
+                <div class="horarios">
+                    
+                    <p>Horario</p>
+                    <p>Domingos de 9:00 a 11:00 hrs</p>
+                    <p>Casa de Cultura las Jarillas</p>
+                </div>
+            </div>
+
+            
+        </div>
+    </main>
+
+    <!-- footer -->
+    <%- include('partials/footer') %>
+</body>
+</html>

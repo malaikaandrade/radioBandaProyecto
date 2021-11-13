@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+    
+}
+.contenedor-taller a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    /* padding: 20px; */
+    text-align: center;
+}
+.foto-taller{
+    width: 100%;
+    padding: 30px;
+}
+.horarios{
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 40px;
+}
+main{
+    margin: 40px;
+}
+
+/* movil */
+@media(min-width: 200px){
+    /* HEADER */
+}
+
+  /*Tableta*/
+@media (min-width: 700px){  
+    /* HEADER */
+    h2{
+        font-size: 45px;
+    }
+
+    .horarios{
+        font-size: 15px;
+    }
+}
+/*PC*/
+@media (min-width: 860px){
+    .foto-taller{
+        width: 40%;
+    }
+    .contenedor-taller p{
+        text-align: left;
+        margin-left: 29px;
+    }
+
+}
