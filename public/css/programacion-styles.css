@@ -1,9 +1,13 @@
 .contenedor-programas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
-.programa{
+.programas-radio{
     margin: 20px;
 
+}
+
+.programa-cuento{
+    width: 20%;
 }
