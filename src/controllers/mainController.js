@@ -19,6 +19,9 @@ const mainController = {
     },
     programacion:  (req, res)=>{
         res.render("programacion");
+    },
+    somos:  (req, res)=>{
+        res.render("somos");
     }
 }
 

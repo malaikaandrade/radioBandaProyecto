@@ -5,9 +5,51 @@
 }
 .programas-radio{
     margin: 20px;
+    padding: 20px;
+}
+
+
+.descripcion-cuento{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+/* para poder centrar la imagen en el mixcloud */
+/* .widget-container .cover-image {
+    background-position: 10%;
+} */
+
+/* movil */
+@media(min-width: 200px){
+    .programas-radio{
+        margin: 0px;
+
+    }
+    .programa-cuento{
+        width:100%;
+
+        margin-top: 30px;
+    }
+    
+}
+
+/*Tableta*/
+@media (min-width: 700px){  
 
 }
 
-.programa-cuento{
-    width: 20%;
+/*PC*/
+@media (min-width: 860px){
+    .programa-cuento{
+        width:30%;
+        margin-left: 35%;
+        margin-top: 30px;
+    }
+
+}
+
+@media (min-width: 1200px){
+
 }

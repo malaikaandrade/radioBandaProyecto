@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.caja-imagen{
+    width: 90vw;
+    margin: auto;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.caja-precio{
+    margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+    line-height: 10px;
+
+
+}
+
+.icono{
+    border-radius: 50%;
+    border: 1px solid #b4164e;
+    color: #b4164e;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+    top: -26px;
+    float: right;
+}
+
+
+/* caja precio--nombre persona */
+.precio-descuento{
+    margin-top: 15px;
+}
+/* nombre persona */
+.precio{
+    width: 100%;
+    line-height: normal;
+}
+/* contacto: email */
+.descuento{
+    color:#b4164e;
+    width: 50%;
+    line-height: normal;
+}
+/* descripcion de la persona */
+.descripcion{
+    display: none;
+    margin-top: 15px;
+    line-height: normal;
+    text-align: center;
+}
+.contenedor-cajas{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+@media (min-width: 361px){
+
+    .caja-imagen{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .caja-imagen:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: 2s;
+    }
+    .caja-imagen:hover .icono {
+        transform: rotate(-270deg);
+        transition: 2s;
+    }
+    .caja-imagen:hover .descripcion{
+        display: block;
+        transition: 2s;
+    }
+}
+
+@media (min-width: 769px){
+
+    .caja-imagen{
+        width: 23%;
+        justify-content: space-between;
+    }
+  
+}
+    
+    
