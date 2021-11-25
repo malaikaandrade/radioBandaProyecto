@@ -1,0 +1,55 @@
+h4{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.info-danza{
+    padding: 40px;
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 27px;
+}
+
+/* movil */
+@media(min-width: 200px){
+
+    #id-imagen-percusiones{
+        margin: 40px;
+        width: 80%;
+       
+    }
+}
+
+
+  /*Tableta*/
+@media (min-width: 700px){  
+    /* HEADER */
+    #id-imagen-percusiones{
+        width: 70%;
+    }
+
+
+    .info-danza{
+        font-size: 25px;
+        line-height: 37px;
+
+    }
+
+}
+/*PC*/
+@media (min-width: 860px){
+    .info-danza{
+        padding: 100px;
+    }
+    .div-imagen-percusiones{
+        justify-content: space-evenly;
+    }
+    .div-imagen-percusiones{
+        display: flex;
+    
+        margin: 70px;
+    }
+}

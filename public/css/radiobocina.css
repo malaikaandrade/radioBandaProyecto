@@ -1,0 +1,41 @@
+h4{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+.info-bocina{
+    /* padding: 40px; */
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 27px;
+    width: 50%;
+}
+.bocina-podcast{
+    display: flex;
+}
+.podcast{
+    width: 50%;
+}
+
+/* movil */
+@media(min-width: 200px){
+
+    #id-imagen-percusiones{
+        /* margin: 40px; */
+        width: 80%;
+       
+    }
+}
+
+
+  /*Tableta*/
+@media (min-width: 700px){  
+
+}
+/*PC*/
+@media (min-width: 860px){
+
+}

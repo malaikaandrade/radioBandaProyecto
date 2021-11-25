@@ -7,6 +7,9 @@
     font-family: 'Lato', sans-serif;
     font-weight: bolder;
 }
+#pleca{
+    width: 100%;
+}
 body{
     font-family: sans-serif;
     background-color: black;
@@ -169,6 +172,7 @@ body{
         display: block;
         width: 100%;
     }
+   
     .div-logo-footer{
         width: 10%;
     }

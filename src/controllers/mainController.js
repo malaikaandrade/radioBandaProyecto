@@ -22,6 +22,9 @@ const mainController = {
     },
     somos:  (req, res)=>{
         res.render("somos");
+    },
+    radioBocina:  (req, res)=>{
+        res.render("radioBocina");
     }
 }
 

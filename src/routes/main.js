@@ -17,6 +17,7 @@ router.get('/tallerPercusiones', mainController.tallerPercusiones);
 router.get('/memorial', mainController.memorial);
 router.get('/programacion', mainController.programacion);
 router.get('/somos', mainController.somos);
+router.get('/radioBocina', mainController.radioBocina);
 
 // Acá exportamos el resultado
 module.exports = router;
